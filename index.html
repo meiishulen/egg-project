@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> First Web Site </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="#" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Acerca De</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    <div class="container">
+        <div class="container">
+            <h1>Bienvenidos a mi primer Website</h1>
+            <section>
+                <h2>Presentación</h2>
+                <p>Soy Meii, ¡y esta es mi primera página web!</p>
+                <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+            </section>
+
+        </div>
+        <div class="column">
+            <h2 id="descrip"> Lo que se viene:</h2>
+            <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a
+                crear
+                una
+                base
+                sólida en el desarrollo web front-end.
+            </p>
+            <button onclick="showAlert()" aria-label> Haz click Aqui </button>
+            <div class="date">
+                <p id="fecha"></p>
+            </div>
+            <div clas="video-container">
+                <video src="C:\Users\meii\OneDrive\Documents\Egg\PDC\CLASE8\Intro sin texto (7) - DieGox AX.mp4"
+                    controls></video>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="pepe">
+    </div>
+    <button onclick="llamarPepe()"></button>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
